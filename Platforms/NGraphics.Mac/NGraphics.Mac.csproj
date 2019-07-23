@@ -68,7 +68,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\..\NGraphics\NGraphics.csproj">
-      <Project>{DF54AAED-8504-44DD-A28C-DA2C3F155CEB}</Project>
+      <Project>{C3DCB65F-216D-4ACB-B894-AAB034EDBD2E}</Project>
       <Name>NGraphics</Name>
     </ProjectReference>
   </ItemGroup>

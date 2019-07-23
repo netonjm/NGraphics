@@ -288,8 +288,10 @@ namespace NGraphics
 				case "linearGradient":
 				break;
 
+				case "mask":
+					break;
 
-			default:
+				default:
 				throw new NotSupportedException ("SVG element \"" + e.Name.LocalName + "\" is not supported");
 			}
 
