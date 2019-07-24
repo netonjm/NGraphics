@@ -445,6 +445,8 @@ namespace NGraphics
 				case "radialGradient":
 					brush = CreateRadialGradientBrush (defE);
 					break;
+				case "pattern":
+					break;
 				default:
 					throw new NotSupportedException ("Fill " + defE.Name);
 				}
